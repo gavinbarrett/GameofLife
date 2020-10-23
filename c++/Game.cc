@@ -48,9 +48,12 @@ void Game::simulateGenerations(int delay) {
 }
 
 void Game::computeNextGeneration(std::vector<std::vector<Pixel*>> &newGraph) {
-	int r = rand() % 255;
-	int g = rand() % 255;
-	int b = rand() % 255;
+	// int r = rand() % 255;
+	// int g = rand() % 255;
+	// int b = rand() % 255;
+	
+	int r = 20, g = 255, b = 20;
+
 	for (int i = 0; i < this->getWidth(); i++) {
 		for (int j = 0; j < this->getHeight(); j++) {
 			int neighbors = newGraph[i][j]->countNeighbors(newGraph, this->getWidth(), this->getHeight());
