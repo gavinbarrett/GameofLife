@@ -9,5 +9,8 @@ The program proceeds deterministically from this initial state by the following 
 2. Any dead cell with three live neighbours becomes a live cell
 3. All other live cells die in the next generation. Similarly, all other dead cells stay dead
 
+## Fun Fact
+The Game of Life is [undecidable](https://en.wikipedia.org/wiki/Undecidable_problem).
+
 ## Game of Life Demo
 <img style="width: 800px; height: 800; text-align: center; border-radius: 5px;" src="./assets/overgrowth.gif">
